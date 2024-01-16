@@ -1,0 +1,119 @@
+.muadh__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.muadh__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.muadh__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.muadh__navbar-links_logo img {
+    width: 312.8px;
+    height: 80.1px;
+}
+
+.muadh__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.muadh__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.muadh__navbar-links_container p,
+.muadh__navbar-sign p,
+.muadh__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.muadh__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.muadh__navbar-menu svg {
+    cursor: pointer;
+}
+
+.muad__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.muadh__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.muadh__navbar-menu_container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .muadh__navbar-links_container {
+        display: none;
+    }
+
+    .muadh__navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .muadh__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .muadh__navbar {
+        padding: 2rem;
+    }
+
+    .muadh__navbar-sign {
+        display: none;
+    }
+
+    .muadh__navbar-menu_container {
+        top: 20px;
+    }
+
+    .muadh__navbar-menu_container-links-sign {
+        display: block;
+    }
+}
