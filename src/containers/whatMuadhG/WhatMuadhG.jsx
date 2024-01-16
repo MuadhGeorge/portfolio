@@ -14,8 +14,7 @@ const WhatMuadhG = () => {
     </div>
     <div className="muadh__whatmuadh-container">
       <Feature title="Front-End" text="HTML, CSS, ReactJs, TypeScript, Swift, JQuery" />
-      <Feature title="Back-End" text="HTML, CSS, ReactJs, TypeScript, Swift, JQuery" />
-
+      <Feature title="Back-End" text="Java, Python, SQL, Kotlin, C, C++, C#,  " />``
       <Feature title="Relavant Course Work" text="Object Oriented Programming, Data Structures/Algorithms, Objects/Design, Discrete Mathematics, Linear Algebra, Multivariate Calculus, Computer Organization/Programming, Combinatorics, Statistics" />
       <Feature title="Education" text="Shifting from Amana Academy, a STEM-focused school, to Milton High School was a crucial transition in my education. At Milton, I expanded my horizons beyond the classroom by actively engaging with the community. Now pursuing a Computer Science major at Georgia Tech, set to graduate in May 2025, I aim to utilize my technical skills for a positive impact. This journey, from a STEM foundation to community involvement and now focusing on computer science, highlights my commitment to both academic and societal growth." />
     </div>
